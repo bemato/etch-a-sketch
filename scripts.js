@@ -29,7 +29,7 @@ let button = document.querySelector('button');
 
 button.addEventListener('click', function(e) {
     while(true){
-        let size = parseInt(prompt("What grid size would you like?"));
+        let size = parseInt(prompt("What grid size would you like? Make sure to enter less than 100 :)"));
         console.log(size);
         if (Number.isInteger(size) && size <= 100){
             

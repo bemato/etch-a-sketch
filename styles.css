@@ -1,6 +1,5 @@
 body{
     margin: 0px;
-    background-color: #cc8e35;
     font-family: 'Rubik', sans-serif;
     background: linear-gradient(to right, transparent 30px, var(--bg-color-line) 0, var(--bg-color-line) 31px, transparent 0, transparent 100%);
     line-height: 1.6;
@@ -61,10 +60,17 @@ button:hover{
     padding: 10px;
     width: 700px;
     height: 700px; 
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.25);
 }
 
 .block{
     width: 6.0%;
-    border: #202d4e solid 0.5px;
+    border: gray solid 0.5px;
+    text-align: center;
+}
+
+footer{
+    color: #202d4e;
+    font-size: small;
     text-align: center;
 }
