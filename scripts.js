@@ -3,7 +3,7 @@ const sketchpad = document.querySelector('.sketchpad');
 
 function createGrid(size){
     for (let i = 0; i < size; i++){
-        for (let k = 0; k < 16; k++){
+        for (let k = 0; k < size; k++){
             
             let block = document.createElement('div');
             block.classList.add('block');
